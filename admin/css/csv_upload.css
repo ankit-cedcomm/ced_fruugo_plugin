@@ -1,0 +1,184 @@
+@CHARSET "UTF-8";
+
+div#ced_fruugo_plugin_csv_module_instruction{
+    display: none;
+}
+
+h3#ced_fruugo_plugin_csv_module_instruction_heading{
+    color: #36518a;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin: 15px 0 0;
+    padding: 15px 15px 15px 15px;
+    background-color: #eee;
+}
+
+div#ced_fruugo_plugin_csv_module_instruction {
+    box-shadow: 2px 1px 5px 0 #ccc;
+    padding: 10px 15px;
+    background-color: #ffffff;
+}
+
+
+
+p.submit input.button-primary
+{
+    display: none;
+}
+
+div#ced_fruugo_plugin_csv_processing_div
+{
+    display: none;
+    background-color: #ffffff;
+}
+div#ced_fruugo_plugin_csv_processing_div {
+    box-shadow: 2px 1px 5px 0 #ccc;
+    text-align: center;
+}
+div#ced_fruugo_plugin_csv_module_instruction  p
+{
+    font-size: 14px;
+    line-height: 32px;
+
+}
+.ced_fruugo_plugin_label_class {
+    display: inline-block;
+    max-width: 200px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ced_fruugo_plugin_label_class_copy {
+    display: inline-block;
+    max-width: 300px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div#ced_fruugo_plugin_csv_module_main{
+    box-shadow: 2px 1px 5px 0 #ccc;
+    padding: 10px 15px;
+    margin: 15px 0px; 
+    background-color: #ffffff;
+}
+
+
+/* css for failure message :: start */
+div#ced_fruugo_plugin_csv_processing_div.ced_fruugo_plugin_failure_id {
+    background-color: #e68364;
+    border-top: 4px solid #dc3023;
+    margin: 15px 0;
+}
+
+
+div#ced_fruugo_plugin_csv_processing_div.ced_fruugo_plugin_failure_id > h3 {
+    color: #ffffff;
+}
+/* css for failure message :: end */
+
+/*success*/
+div#ced_fruugo_plugin_csv_processing_div.ced_fruugo_plugin_success_id {
+    background-color: #ffffff;
+    border-top: 4px solid #48cfad;
+    margin: 15px 0;
+}
+div#ced_fruugo_plugin_csv_processing_div.ced_fruugo_plugin_success_id > h3 {
+    color: #48cfad;
+}
+
+/* common */
+div#ced_fruugo_plugin_csv_processing_div > h3 {
+    margin: 0;
+    padding: 15px;
+    text-align: left;
+}
+
+
+/* css for success table :: start */
+table#ced_fruugo_plugin_csv_import_report {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+    max-width: 80%;
+    width: 100%;
+
+}
+table#ced_fruugo_plugin_csv_import_report tbody tr th {
+    border: 1px solid #ddd;
+    color: #fff;
+    background-color: #48cfad;
+    padding: 5px 10px;
+}
+table#ced_fruugo_plugin_csv_import_report tbody tr td {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+}
+table#ced_fruugo_plugin_csv_import_report tbody tr td:nth-child(2) {
+    font-weight: bold;
+}
+/* css for success table :: end */
+
+
+#ced_fruugo_plugin_close_csv_import_report.button-primary, 
+#ced_fruugo_plugin_csv_submit_button {
+    margin: 15px 0 !important;
+}
+
+
+.browse_label {
+    background: #d3394c none repeat scroll 0 0;
+    color: #f1e5e6;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+    padding: 5px 15px;
+}
+
+#ced_fruugo_plugin_csvToUpload{
+    display: none;
+}
+
+
+#ced_fruugo_plugin_csv_module_instruction_heading > span {
+    border: 2px solid #36518a;
+    border-radius: 50%;
+    display: inline-block;
+    height: 18px;
+    line-height: 16px;
+    text-align: center;
+    width: 18px;
+}
+
+label#ced_fruugo_plugin_csv_file_name{
+    color:#003171;
+    font-weight: bold;
+    margin: 25px 20px;
+}
+
+
+div.error_reason p{
+    color: red;
+    font-weight: bold;
+}
+
+a.error_log_button{
+    text-decoration: none;
+    background: transparent none repeat scroll 0 0;
+    border: none;
+    color: #008cc0;
+    font-weight: bold;
+    padding: 6px 15px;
+    margin-left: 10px;
+}
+a.error_log_button:hover{
+    background: #008cc0 none repeat scroll 0 0;
+    border-color: #008cc0;
+    color: #fff;
+    cursor: pointer;
+}
+
+div.error_reason p, a {
+    display: inline-block;
+}

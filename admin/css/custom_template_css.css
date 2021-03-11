@@ -1,0 +1,117 @@
+                        body,html
+							{
+								height: 100%;
+								margin: 0;
+								padding: 0;
+								width: 100%;
+							}
+							.main{
+								background-color: rgb(235,119,82);
+								top: 0;
+								left: 0;
+								width: 100%;
+								margin: 0 auto;
+								padding: 6px 0;
+							}
+							.section{
+								width: 1170px;
+								background-color: #ffffff;
+								margin: 0 auto;
+							}
+							.section #header #logo {
+								background-color: rgb(235, 119, 82);
+								border: 14px solid #ffffff;
+								color: #ffffff;
+								float: left;
+								font-weight: bolder;
+								height: 75px;
+								line-height: 74px;
+								margin: 0;
+								padding-top: 0;
+								text-align: center;
+								text-transform: capitalize;
+								width: 19%;
+							}
+							.section #header #hotline {
+								background-color: rgb(235, 119, 82);
+								color: #ffffff;
+								float: right;
+								font-weight: bolder;
+								height: 74px;
+								line-height: 72px;
+								margin-right: 15px;
+								margin-top: 15px;
+								padding-top: 0;
+								text-align: center;
+								text-transform: uppercase;
+								width: 19%;
+							}
+							.clear{
+								clear: both;
+							}
+							#product_details h2 {
+								color: rgb(245, 9, 23);
+								font-family: \"Times New Roman\";
+								font-size: 34px;
+								padding: 10px 20px;
+								width: 50%;
+							}
+							#product_details #about_product {
+								float: left;
+								width: 774px;
+							}
+							#product_details #about_product p {
+								color: #000000;
+								font-family: \"Times New Roman\";
+								font-size: 19px;
+								margin: 0;
+								padding: 0 20px;
+								word-spacing: 6px;
+							}
+							#product_details #product_image{
+								float: left;
+								width: 385px;
+							}
+							#product_details #product_image .images {
+								margin-left: 11px;
+								width: 100%;
+							}
+							#product_order h2 {
+								font-size: 28px;
+								text-transform: capitalize;
+							}
+							#product_order #product_order_wrapper {
+								clear: both;
+								content: \"\";
+								width: 1170px;
+								display: table;
+							}
+							#product_order #product_order_wrapper #shipping {
+								float: left;
+								font-family: arial;
+								font-size: 18px;
+								padding: 6px 13px;
+								width: 46%;
+							}
+							#product_order #product_order_wrapper #shipping p{
+								margin: 0;
+								font-size: 17px;
+							}
+							#product_order #product_order_wrapper #payment {
+								float: left;
+								font-family: arial;
+								padding: 6px 23px;
+								text-align: justify;
+								width: 47%;
+							}
+							#product_order #product_order_wrapper #payment img{
+								width: 42%;
+							}
+							#services h2 {
+								font-size: 28px;
+								margin-left: 12px;
+								text-transform: capitalize;
+							}
+							#services i{
+								margin-left: 12px;
+							}                      

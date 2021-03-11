@@ -1,0 +1,106 @@
+/** manage products**/
+.ced_fruugo_wrap .alignleft.actions.bulkactions .ced_fruugo_top_wrapper {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* assign profile popup **/
+.ced_fruugo_hidden_profile_section.ced_fruugo_wrap .ced_fruugo_button_right span {
+    border: 2px solid #fff;
+    border-radius: 100%;
+    display: inline-block;
+    font-weight: bold;
+    height: 20px;
+    margin-top: 10px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 0;
+    width: 20px;
+}
+.ced_fruugo_wrap .ced_fruugo_top_wrapper select {
+    margin: 0 6px;
+}
+.ced_fruugo_hidden_profile_section.ced_fruugo_wrap h2.ced_fruugo_setting_header {
+    margin-bottom: 10px;
+    padding-top: 0;
+}
+.ced_fruugo_hidden_profile_section.ced_fruugo_wrap label.ced_fruugo_white_txt {
+    font-size: 14px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.ced_fruugo_hidden_profile_section.ced_fruugo_wrap .ced_fruugo_profile_select {
+    width: 75%;
+}
+
+.ced_fruugo_hidden_profile_section.ced_fruugo_wrap button.ced_fruugo_save_profile {
+    display: block;
+    margin-left: auto;
+    margin-right: 0 auto;
+    margin-top: 15px;
+}
+
+/* manage orders */
+.ced_fruugo_wrap #ced_fruugo_orders .tablenav.top {
+    float: right;
+    margin-top: 0;
+}
+
+/*#ced_fruugo_orders {
+    margin-top: 10px;
+}*/
+
+/*--Manage Product CSS Start Tooltip--*/ 
+
+.ced_fruugo_IsReady {
+    cursor: pointer;
+}
+
+table.wp-list-table.widefat.fixed.striped.ced_fruugo_mps tr td {
+    position: relative;
+}
+.ced_fruugo_MissingData {
+    background-color: #000;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    color: #fff;
+    left: 0;
+    margin-top: 10px;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    visibility: hidden;
+    z-index: 999;
+}
+.ced_fruugo_MissingData::before {
+    border-bottom: 10px solid #000;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    width: 0;
+}
+.ced_fruugo_IsReady:hover ~.ced_fruugo_MissingData {
+    visibility: visible!important;
+     z-index: 999;
+}
+
+
+
+
+
+.ced_fruugo_proReady {
+    color: #1b5e20;
+}
+/*--Manage Product CSS End Tooltip--*/ 

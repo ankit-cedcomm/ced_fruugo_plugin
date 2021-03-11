@@ -1,0 +1,90 @@
+.ced_fruugo_expand_fruugocat{
+	cursor:pointer;
+}
+.ced_fruugo_cat_ul li {
+  background-color: #989898;
+  border-radius: 2px;
+  color: #fff;
+  margin: 0 0 2px;
+  padding: 5px 10px;
+}
+.ced_fruugo_cat_ul {
+  margin: 0 3px !important;
+}
+.ced_fruugo_cat_activate_ul.ced_fruugo_toggle_div ul.ced_fruugo_cat_ul li {
+  display: block;
+  font-size:14px;
+  
+}
+.ced_fruugo_cat_activate_ul.ced_fruugo_toggle_div ul.ced_fruugo_cat_ul {
+  display: inline-block;
+  vertical-align: top;
+}
+li .ced_fruugo_expand_fruugocat {
+  margin-left: 20px;
+}
+table.ced_fruugo_return_address tbody tr .ced_fruugo_para > input {
+  display: inline-block;
+  width: auto;
+}
+.ced_ump_circle_loderimg{
+	display : none;
+	float:right;
+}
+.ced_fruugo_template_fetch_loader{
+	display : none;
+	float:right;
+}
+.ced_fruugo_circle_img {
+   
+    width: 30px;
+    height: 30px;
+    margin:-5px auto;
+    -webkit-animation:spin 300ms linear infinite;
+    -moz-animation:spin 300ms linear infinite;
+    animation:spin 300ms linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+.ced_fruugo_return {
+  background-color: #fff;
+}
+.ced_fruugo_wrapper:nth-child(2n+1) {
+  background-color: #ececec;
+}
+.ced_fruugo_wrapper {
+  padding: 15px;
+}
+.ced_fruugo_wrapper label {
+  float: left;
+  font-size: 16px;
+  font-weight: 600;
+  max-width: 230px;
+  text-transform: capitalize;
+  vertical-align: top;
+  width: 100%;
+}
+.ced_fruugo_wrapper .ced_fruugo_button{
+  background-color: #fab418 !important;
+  border: medium none;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px #ccc !important;
+  color: #000;
+  padding: 1px 14px;
+  text-transform: uppercase;
+}
+.ced_fruugo_sub_fruugo_wrapper {
+  margin: 10px 0;
+}
+.ced_fruugo_wrapper h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.ced_fruugo_wrapper span {
+  font-size: 15px;
+}
+.ced_fruugo_profile_required_fields_heading,
+.ced_fruugo_profile_basic_information_heading{
+    padding-top: 50px;
+}
